@@ -416,3 +416,7 @@ int should_use_keymaster()
      */
     return 1;
 }
+unsigned int is_hw_fde_enabled(void)
+{
+    return 1;
+}
